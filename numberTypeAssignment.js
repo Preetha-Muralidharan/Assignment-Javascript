@@ -1,3 +1,4 @@
+//if ...else
 /* function number()
 {
     let a=0
@@ -15,7 +16,7 @@
     }
 }
 number() */
-
+// if ..else with dynamic value for the variable
 function checkNumber(a) {
     if (a > 0) {
         console.log(`The number ${a} is positive`);
@@ -29,7 +30,7 @@ checkNumber(10);  // The number 10 is positive
 checkNumber(-5);  // The number -5 is negative
 checkNumber(0);   // The number 0 is neutral
 
-
+//using switch statement
 /* 
 function num(c) {
     switch (c) {
